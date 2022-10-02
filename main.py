@@ -1,5 +1,8 @@
 from discord.ext import commands
 import os
+from time import sleep
+
+sleep(15)
 
 help_command = commands.DefaultHelpCommand(
     no_category = 'PiHole Commands'
